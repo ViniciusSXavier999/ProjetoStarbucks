@@ -1,0 +1,583 @@
+/*importando a fonte que será utilizada no site*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Oswald:wght@400;700&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+/* Estilização MENU */
+
+header .linha {
+    background-color: green;
+    height: 10px;
+
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.header--area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+}
+
+
+.logo img {
+    width: 70px;
+    height: 70px;
+}
+
+.cabeçalho--direita {
+    display: flex;
+    align-items: center;
+
+}
+
+.area--pesquisar form {
+    display: flex;
+
+}
+
+.area--pesquisar input {
+    font-size: 15px;
+    padding: 10px 13px;
+    border: 2px solid black;
+    width: 100%;
+    max-width: 220px;
+}
+
+.area--pesquisar button {
+    border: 0;
+    background-color: transparent;
+    margin-left: -25px;
+}
+
+.area--pesquisar button img {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
+
+}
+
+.menu {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menu img {
+    width: 25px;
+    height: 25px;
+}
+
+.local {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.local img {
+    width: 50px;
+    height: 50px;
+}
+
+/*-------------------------------------------------------*/
+
+/* Banner principal */
+
+.main {
+    background-image: url('../imagens/principal.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+}
+
+.main h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+    margin: 0px;
+    margin-bottom: 30px;
+    
+    
+
+}
+
+.main--img {
+    margin-top: 60px;
+   
+}
+
+.main--img img {
+    width: 140px;
+    height: 140px;
+    border: 7px solid #117050;
+    border-radius: 100%;
+    margin-right: 40px;
+  
+
+}
+
+/*------------------------------------------------------*/
+
+/* Estilização da div de divisão dos conteudos */
+.divisão {
+    margin: 0px;
+    height: 10px;
+    margin-top: 10px;
+    background-color: #fff;
+}
+
+/* Estilização do conteudo da divisão */
+
+.divisao--conteudo {
+    background-color: #c9ebce;
+    height: 170px;
+}
+
+.texto--div {
+    text-align: center;
+    line-height: 20px;
+    padding: 30px;
+    
+}
+
+.botao--div {
+    border: 2px solid #454545;
+    padding: 6px 20px;
+    border-radius: 50px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botao--cardapio {
+    text-align: center;
+}
+
+.botao--div:hover {
+    color: #fff;
+    background-color: #454545;
+}
+
+/*------------------------------------------------------*/
+
+/* Estilização Area 1 */
+
+.area1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.barra {
+    background-color: #006341;
+    width: 168px;
+    height: 22px;
+}
+
+.area1--conteudo {
+    padding: 100px;
+
+}
+
+.area1--img1 {
+    background-color: #117050;
+    height: 350px;
+    background-image: url('../imagens/bg3.jpg');
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.area1--img2 {
+    grid-column: 2 / 3;
+    grid-row: 1/3;
+    background-image: url('../imagens/area1.jpg');
+    background-size: cover;
+    background-position: center;
+    margin-left: -35px;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    margin: 20px 0;
+    line-height: 45px;
+
+}
+
+.botao {
+    display: inline-block;
+    border: 2px solid #454545;
+    padding: 10px 30px;
+    border-radius: 3px;
+    color: #454545;
+    text-decoration: none;
+
+}
+
+.botao:hover {
+    color: #fff;
+    background-color: #454545;
+}
+
+.area1--texto {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+/*------------------------------------------------------*/
+
+/* Estilização Area 2 */
+
+.area2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: -70px;
+}
+
+.area2--conteudo {
+    padding: 100px;
+
+}
+
+.area2--img1 {
+    background-color: #117050;
+    height: 500px;
+    background-image: url('../imagens/insta0.jpeg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+.area2--img2 {
+    grid-column: 1 / 2;
+    grid-row: 1/3;
+    background-image: url('../imagens/princi.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  
+}
+
+.area2--texto {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+/*------------------------------------------------------*/
+
+/* Estilização Area 3 */
+
+.area3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: -70px;
+}
+
+.area3--conteudo {
+    padding: 200px 150px;
+    background-image: url('../imagens/bg2.jpg');
+    background-size: cover;
+    background-position: left;
+     
+}
+
+.area3--img1 {
+    background-image: url('../imagens/f5.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.area3--texto {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+/*------------------------------------------------------*/
+
+/* Estilização Area 4 */
+
+.area4{
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    background-color: #bfeaf1;
+    
+}
+
+.area4--conteudo{
+    padding: 200px 80px;
+}
+
+.area4--texto {
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+.area4--img1 {
+    background-image: url('../imagens/insta2.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-left: 96px;
+    
+}
+
+/*------------------------------------------------------*/
+.pag2--conteudo {
+    background-color: #c9ebce;
+    height: 170px;
+}
+
+.produtos--conteudo {
+    text-align: center;
+    line-height: 20px;
+    padding: 30px;
+}
+
+.pag2--video{
+    text-align: center;
+    line-height: 20px;
+
+}
+
+.botao--div {
+    text-align: center;
+}
+
+/*------------------------------------------------------*/
+
+/* Rodapé */
+
+footer {
+    background-color: #daf8d8;
+    height: 200px;
+    font-size: small;
+    padding-top: 4px;
+}
+
+.texto-rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+h4 {
+    color: rgb(10, 10, 10);
+    font-size: 20px;
+}
+
+.rodape-redes {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social-rodape {
+    list-style: none;
+    padding: 0px;
+    
+}
+
+.social-rodape li {
+    display: inline;
+    padding: 10px;
+    font-size: 30px;
+}
+
+.fa-github:hover {
+    color: black;
+}
+
+.fa-linkedin-square:hover {
+    color: rgb(63, 63, 237);
+}
+
+.fa-instagram:hover {
+    color: rgb(255, 0, 221)
+}
+
+.direitos-autorais {
+    background-color: #d9e1df;
+    padding: 5px;
+}
+
+.direitos-autorais p {
+    text-align: center;
+}
+
+.direitos-autorais a {
+    text-decoration: none;
+}
+
+/* Estilização arquivo video.html*/
+
+.video--conteudo{
+    background: linear-gradient(rgb(174, 239, 174), azure);
+    text-align: center;
+}
+
+.video--star{
+    
+    background-image: url('../imagens/bg4.jpg');
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    
+     
+}
+
+.area--video {
+    margin: 0;
+}
+
+.video {
+    margin: 10px;
+    border-radius: 50px;
+}
+
+.tex {
+    margin-left: 20px;
+}
+
+.Ingredientes h2 {
+    margin: 0;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    background: linear-gradient(rgb(174, 239, 174), azure);
+    text-align: center;
+    font-family:  'Open Sans', sans-serif;
+}
+
+.lista-video {
+    background: #f2faf1;
+    color: rgb(0, 158, 84);
+    margin: 0px;
+}
+
+/* Estilização arquivo slide.html */
+
+.arquivo-slide {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(72deg, white 1%, green 99%);
+}
+
+.content {
+    height: 520px;
+    width: 935px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.navega {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid rgb(0, 87, 31);
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.bar:hover {
+    background-color: rgb(11, 255, 80);
+}
+
+.slide-input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .7s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    
+}
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
+
+/* -------------------------- */
+
+.drinks-slide {
+    padding: 20px;
+}
+
+.botao-drink {
+    border: 2px solid rgb(0, 0, 0);
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+.botao-drink:hover {
+    background-color: green;
+}
+
+
+
+
+
+
+
+
+
+
+
